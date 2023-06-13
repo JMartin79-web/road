@@ -1,6 +1,17 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-}
+//@import "";
+
+// GENERAL
+@import "./utilities.scss";
+@import "./general.scss";
+@import "./components/Footer.scss";
+@import "./components/Header.scss";
+
+
+// PAGINAS
+@import "./components/Home.scss";
+    @import "./components/Hero.scss";
+
+
+// COMPONENTES GRANDES
+
+// COMPONENTES CHICOS

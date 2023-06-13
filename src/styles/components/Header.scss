@@ -1,0 +1,9 @@
+.header-container{
+    @include container;
+    .header{
+        @include padding25;
+        @include div-width;
+        @include d-flex-center;
+        justify-content: space-between;
+    }
+}

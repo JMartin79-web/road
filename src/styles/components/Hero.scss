@@ -1,0 +1,21 @@
+.hero-container{
+    @include container;
+    .hero{
+        @include padding25;
+        @include div-width;
+        @include d-flex-center;
+        .sec1{
+            h4{
+                color: $azul;
+                font-weight: 800;
+            }
+            .sec1-div2{
+                p{font-weight: $semiBold;}
+                .color1{color: $azul}
+                .color2{color: $rojo}
+                .color3{color: $verde}
+                .color4{color: $negro}
+            }
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.searchsection-container{
+    @include container;
+    .searchsection{
+        @include padding25;
+        @include div-width;
+        @include d-flex-center;
+        .search-input{
+            min-width: 50%;
+            background-color: $blanco;
+            border-radius: 50px;
+            border: 2px solid $azul;
+            padding: 5px 10px;
+        }
+    }
+}

@@ -48,6 +48,20 @@ $black : 900;
 
 // Padding
 @mixin padding25{padding: 25px;}
+@mixin padding15{padding: 20px;}
+@mixin padding10{padding: 10px;}
+@mixin padding5{padding: 5px;}
+
+// Margin
+@mixin margin25{margin: 25px;}
+@mixin margin15{margin: 20px;}
+@mixin margin10{margin: 10px;}
+@mixin margin5{margin: 5px;}
+
+// index
+@mixin z-index{
+    position: relative;
+}
 
 
 // Flex center 
@@ -64,3 +78,13 @@ $black : 900;
     justify-content: center;
     align-items: center;
 }
+
+// Flex 
+@mixin d-flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+// Animations
+@mixin animation-all-ease{transition: all .3s ease;}

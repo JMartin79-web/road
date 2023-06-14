@@ -1,5 +1,6 @@
 .header-container{
     @include container;
+    border-bottom: 3px solid $negro;
     .header{
         @include padding25;
         @include div-width;

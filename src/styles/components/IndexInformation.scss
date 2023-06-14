@@ -1,0 +1,57 @@
+.index-info-container{
+    @include container;
+    .index-info{
+        @include padding25;
+        @include div-width;
+        @include d-column-center;
+
+        .index-tabs{
+            @include d-flex-between;
+            width: 100%;
+            .index-tab{
+                width: 33%;
+                @include padding5;
+                @include d-flex-center;
+                background-color: $blanco;
+
+                border-top: 2px solid $negro;
+                border-left: 2px solid $negro;
+                border-right: 2px solid $negro;
+                
+                border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+
+                cursor: pointer;
+                @include animation-all-ease;
+            }
+            .index-tab-open{
+                width: 33%;
+                @include padding5;
+                @include d-flex-center;
+                background-color: $azul;
+                color: $blanco;
+                font-weight: $semiBold;                
+                border-top: 2px solid $azul;
+                border-left: 2px solid $azul;
+                border-right: 2px solid $azul;
+
+                border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+
+                cursor: pointer;
+                @include animation-all-ease;
+            }
+        }
+
+        .index-content{
+            width: 100%;
+            min-height: 25vh;
+            @include d-column-center;
+            @include padding10;
+            background-color: $azul;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+
+        }
+    }
+}

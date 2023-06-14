@@ -34,12 +34,6 @@ function Hero() {
 
         </div>
 
-        <div className='sec1-div2'>
-          <p className='color1'>hola</p>
-          <p className='color2'>hola</p>
-          <p className='color3'>hola</p>
-          <p className='color4'>hola</p>
-        </div>
 
       </section>
 

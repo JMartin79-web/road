@@ -1,0 +1,42 @@
+.tag-container{
+    text-decoration: none;
+    max-height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 25px;
+    @include margin10;
+
+    .tag-link{
+        color: $blanco;
+        text-decoration: none;
+        overflow: hidden;
+        .tag{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            position: relative;
+            
+            .tag-txt{
+                width: 100%;
+                @include padding10;
+                z-index: 2;
+                position: absolute;
+                display: flex;
+                flex-wrap: wrap;
+                //color: $blanco;
+                text-decoration: none;
+            }
+
+            .tag-img{
+                height: 100%;
+                position: relative;
+                z-index: 1;
+                img{
+                    height: 200px;
+                    object-fit: cover;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}

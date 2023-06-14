@@ -10,8 +10,12 @@
 // PAGINAS
 @import "./components/Home.scss";
     @import "./components/Hero.scss";
+    @import "./components/SearchSection.scss";
+    @import "./components/IndexInformation.scss";
+        @import "./components/Tabs.scss";
 
-
+        
 // COMPONENTES GRANDES
-
+        
 // COMPONENTES CHICOS
+        @import "./components/Tags.scss"

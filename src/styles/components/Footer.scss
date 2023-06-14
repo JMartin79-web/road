@@ -1,0 +1,13 @@
+.footer-container{
+    @include container;
+    border-top: 3px solid $azul;
+    background-color: $negro;
+    position: relative;
+    bottom: 0;
+    .footer{
+        @include padding25;
+        @include div-width;
+        @include d-flex-center;
+        h3{color: $blanco;}
+    }
+}

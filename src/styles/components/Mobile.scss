@@ -1,0 +1,9 @@
+.mobile-container{
+    @include container;
+    min-height: 100vh;
+    .mobile{
+        @include padding25;
+        @include div-width;
+        @include d-flex-center;
+    }
+}

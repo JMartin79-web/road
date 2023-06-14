@@ -15,9 +15,7 @@ function Hero() {
 
         <div className='sec1-txt'>
           <h1>Tea proyect</h1>
-          <br />
           <p>Un sitio simple, con todo a mano.</p>
-          <br />
           <br />
           
           <h4>De qué se trata</h4>

@@ -1,9 +1,18 @@
 import React from 'react'
 
 function Tab3() {
-  return (
-    <div>Tab3</div>
-  )
+return (
+<>
+
+<div className='tabs'>
+    
+    <p>Proximamente</p>
+    
+
+</div>
+
+</>
+)
 }
 
 export default Tab3

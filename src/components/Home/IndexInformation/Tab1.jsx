@@ -43,7 +43,7 @@ return (
     />
     
     <Tags
-        link="/programacion/html"
+        link="/programacion/mobile"
         img={imgReactNative}
         title="React Native"
         p="Usando React para el desarrollo de apps cross plataform"

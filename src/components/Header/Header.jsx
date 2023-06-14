@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
@@ -7,7 +8,7 @@ function Header() {
     <header className='header'>
 
         <div>
-          <p>Tea Proyect</p>
+          <Link to="/">Tea proyect</Link>
         </div>
       
         <div>

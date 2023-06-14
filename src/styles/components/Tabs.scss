@@ -1,6 +1,8 @@
 .tabs{
     @include padding5;
-    @include d-column-center;
     width: 100%;
-
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }

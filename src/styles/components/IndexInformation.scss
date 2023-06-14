@@ -12,7 +12,9 @@
                 width: 33%;
                 @include padding5;
                 @include d-flex-center;
-                background-color: $blanco;
+                background-color: $negro;
+                color: $blanco;
+                font-weight: $regular;                
 
                 border-top: 2px solid $negro;
                 border-left: 2px solid $negro;
@@ -28,12 +30,12 @@
                 width: 33%;
                 @include padding5;
                 @include d-flex-center;
-                background-color: $azul;
-                color: $blanco;
+                background-color: $blanco;
+                color: $negro;
                 font-weight: $semiBold;                
-                border-top: 2px solid $azul;
-                border-left: 2px solid $azul;
-                border-right: 2px solid $azul;
+                border-top: 2px solid $negro;
+                border-left: 2px solid $negro;
+                border-right: 2px solid $negro;
 
                 border-top-left-radius: 25px;
                 border-top-right-radius: 25px;
@@ -45,12 +47,17 @@
 
         .index-content{
             width: 100%;
-            min-height: 25vh;
+            min-height: 50vh;
             @include d-column-center;
             @include padding10;
-            background-color: $azul;
+            background-color: $blanco;
+
             border-bottom-left-radius: 25px;
             border-bottom-right-radius: 25px;
+            
+            border-left: 2px solid $negro;
+            border-right: 2px solid $negro;
+            border-bottom: 2px solid $negro;
 
         }
     }
